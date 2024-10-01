@@ -1,0 +1,332 @@
+.container{
+    max-width: 1200px;
+	margin: 0 auto;
+}
+.mainhead{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.logo{
+	width: 55%;
+    margin: 41px 0 25px;
+} 
+nav{
+   width: 40% ;
+   margin: 52px 0 47px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    font-family: arial;
+    font-weight: bold;
+}
+nav ul li a {
+   text-decoration: none;
+   color: #202020;
+}
+.bannar img {
+	width:100%;
+}
+ h1{
+    text-align: center;
+    margin: 106px 0 23px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+ .service p{
+    text-align: center;
+    margin:28px 0 102px;
+    font-family: arial;
+    color: #606060;
+}
+.maincol{
+    margin-bottom: 162px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col1{
+    width: 30%;
+}   
+.col2{
+    width: 30%;
+}
+.col3{
+    width: 30%;
+   
+}    
+.col1 img{
+    margin-bottom: 40px;
+}
+.col2 img{
+    margin-bottom: 40px;
+}    
+.col3 img{
+    margin-bottom: 40px;
+}
+footer{
+    background: #252527;
+}
+.mainfoot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foot1{
+    width: 70%;
+}
+.foot2{
+    width: 15%;
+}
+.foot1 b{
+    font-weight: bold;   
+}
+.foot1 p{
+     color: #605641;
+     font-family: arial;
+     padding: 30px 0 30px;
+}
+.foot2 p{
+     color: #605641;
+     font-family: arial;
+     padding: 30px 0 30px;
+}
+
+/***************** contact page *******************/
+.contact h2{
+    margin: 27px 0 24px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: arial;
+}
+.maintext{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top:54px ;
+    padding-bottom: 190px;
+}
+.text1{
+    width:55%;
+}
+.text1 h2{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.text1 p{
+    font-family: arial;
+}
+.text2{
+    width:45%;
+    margin top: 53px;
+}
+.text2 form input{
+    padding: 18px 0 20px 31px;
+    width: 540px;
+    height: 22px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+ .text2 form textarea{
+    width: 540px;
+    height: 180px;
+    padding: 34px 0 0 31px;
+    box-sizing: border-box;
+}
+.text2 form button{
+   background: #f44336;
+   color: white;
+   margin-top:22px ;
+   width: 125px;
+   height: 35px;
+   border: none;
+} 
+nav i.fa-solid{
+    display: none;
+}
+@media only screen and (max-width: 576px) and (min-width: 375px){
+    nav i.fa-solid{
+        display: block;
+    }
+    nav ul {
+        text-align: center;
+        display: none;
+        background:#00ffd0;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        border-radius: 450px;
+    }
+    nav a:hover{
+        color: red;
+    } 
+   nav ul li {
+        margin: 12px 22px 0;
+        display: block;
+        width: 100px;
+    }
+    nav i{
+        font-size: 40px;
+        margin-left: 55px;
+    }
+    nav:hover ul{
+        display: block;
+    }
+    .service h1 {
+        font-size: 15px;
+        margin-top: 5%;
+    }
+    .service p {
+        font-size: 10px;
+        margin-top: -2%;
+        margin-bottom: 7%;
+    }
+    .maincol {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -19%;
+    }
+    .col1, .col2, .col3{
+        width: 100%;
+    }
+    .col1 img, .col2 img, .col3 img{
+        width: 80%;
+    }
+    .col3{
+        padding-bottom: 18%;
+    }
+    .mainfoot {
+        display: block;
+        width: 100%;
+    }
+    .foot1{
+        width: 100%;
+    }
+    .foot1 p {
+      width: 100%;
+      text-align: center;
+      font-size: 11px;
+    }
+    .foot2 {
+        width: 100%;
+    }
+    .foot2 p{
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        margin-top: -7%
+    }
+    .contact h2 {
+        width: 100%;
+       text-align: center;
+    }
+    .contact img {
+        width: 100%;
+        margin-bottom: -6%;
+    }
+    .maintext {
+        display: block;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .text1{
+        width: 100%;
+        text-align: center;
+    }
+    .text2 form input {
+        width: 150%;
+        margin: 13% 0 0 33%;
+    }
+    .text2 form textarea {
+         width: 150%;
+         margin: 13% 0 0 33%;
+    }
+    .text2 form button {
+        width: 70%;
+         margin-left: 77%;
+    }
+}  
+@media only screen and (max-width:768px) and (min-width: 577px){
+   .service h1 {
+        margin-top: 5%;
+        font-size: 17px;
+    }
+    .service p {
+        margin-bottom: 7%;  
+    }
+    .maincol {
+         width: 100%;
+         margin-bottom: 2%
+    }
+    .col1 img, .col2 img, .col3 img{
+        width: 85%;
+    }
+    .col1{
+        margin-left: 5%;
+    }
+    .mainfoot {
+        display: block;
+        width: 100%;
+    }
+    .foot1{
+        width: 100%;
+    }
+    .foot1 p {
+      width: 100%;
+      text-align: center;
+      font-size: 11px;
+    }
+    .foot2 {
+        width: 100%;
+    }
+    .foot2 p{
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        margin-top: -6%
+    }
+}
+@media only screen and (max-width:992px) and (min-width: 769px){
+     .service h1 {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .service p {
+        margin-bottom: 5%;  
+    }
+    .maincol {
+         width: 100%;
+         margin-bottom: 2%
+    }
+    .col1 img, .col2 img, .col3 img{
+        width: 90%;
+    }
+    .col1{
+        margin-left: 5%;
+    }
+    .mainfoot {
+        display: block;
+        width: 100%;
+    }
+    .foot1{
+        width: 100%;
+    }
+    .foot1 p {
+      width: 100%;
+      text-align: center;
+      font-size: 15px;
+    }
+    .foot2 {
+        width: 100%;
+    }
+    .foot2 p{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        margin-top: -4%
+    }
+}
